@@ -1,0 +1,2 @@
+source /home/dacid-carapia-quinto/esp/esp-idf/Multinucleo/build/gdbinit/symbols
+source /home/dacid-carapia-quinto/esp/esp-idf/Multinucleo/build/gdbinit/connect

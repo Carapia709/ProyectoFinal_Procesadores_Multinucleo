@@ -1,0 +1,4 @@
+Command: ninja size
+warning:  DRAM overflow detected!: output section or its part .dram0.bss(addr: 1073594880, size: 23408) does not fit into any memory region and will be assigned to the preceding dram0_0_seg memory region
+Total image size: 170465 bytes (.bin may be padded larger)
+Note: The reported total sizes may be smaller than those in the technical reference manual due to reserved memory and application configuration. The total flash size available for the application is not included by default, as it cannot be reliably determined due to the presence of other data like the bootloader, partition table, and application partition size.

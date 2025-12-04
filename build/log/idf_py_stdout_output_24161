@@ -1,0 +1,21 @@
+Command: ninja size
+[0/1] cd /home/dacid-carapia-quinto/esp/esp-idf/Multinucleo/build && /usr/bin/cmake -D "IDF_SIZE_TOOL=/home/dacid-carapia-quinto/.espressif/python_env/idf6.0_py3.12_env/bin/python;-m;esp_idf_size" -D MAP_FILE=/home/dacid-carapia-quinto/esp/esp-idf/Multinucleo/build/Multinucleo.map -D OUTPUT_JSON= -P /home/dacid-carapia-quinto/esp/esp-idf/tools/cmake/run_size_tool.cmake
+                             Memory Type Usage Summary                              
+┏━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
+┃ Memory Type/Section   ┃ Used [bytes] ┃ Used [%] ┃ Remain [bytes] ┃ Total [bytes] ┃
+┡━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━┩
+│ DRAM                  │        92932 │    51.42 │          87804 │        180736 │
+│    .bss               │        83048 │    45.95 │                │               │
+│    .data              │         9884 │     5.47 │                │               │
+│ Flash Code            │        75002 │          │                │               │
+│    .text              │        75002 │          │                │               │
+│ IRAM                  │        44727 │    34.12 │          86345 │        131072 │
+│    .text              │        43699 │    33.34 │                │               │
+│    .vectors           │         1028 │     0.78 │                │               │
+│ Flash Data            │        39936 │          │                │               │
+│    .rodata            │        39680 │          │                │               │
+│    .appdesc           │          256 │          │                │               │
+│ RTC SLOW              │           60 │     0.73 │           8132 │          8192 │
+│    .force_slow        │           36 │     0.44 │                │               │
+│    .rtc_slow_reserved │           24 │     0.29 │                │               │
+└───────────────────────┴──────────────┴──────────┴────────────────┴───────────────┘

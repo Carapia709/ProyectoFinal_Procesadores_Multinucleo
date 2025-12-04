@@ -1,0 +1,19 @@
+Command: ninja size
+[0/1] cd /home/dacid-carapia-quinto/esp/esp-idf/Multinucleo/build && /usr/bin/cmake -D "IDF_SIZE_TOOL=/home/dacid-carapia-quinto/.espressif/python_env/idf6.0_py3.12_env/bin/python;-m;esp_idf_size" -D MAP_FILE=/home/dacid-carapia-quinto/esp/esp-idf/Multinucleo/build/Multinucleo.map -D OUTPUT_JSON= -P /home/dacid-carapia-quinto/esp/esp-idf/tools/cmake/run_size_tool.cmake
+                            Memory Type Usage Summary                             
+┏━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
+┃ Memory Type/Section ┃ Used [bytes] ┃ Used [%] ┃ Remain [bytes] ┃ Total [bytes] ┃
+┡━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━┩
+│ DRAM                │       204140 │   112.95 │         -23404 │        180736 │
+│    .bss             │       170848 │    94.53 │                │               │
+│    .bss_overflow    │        23408 │    12.95 │                │               │
+│    .data            │         9884 │     5.47 │                │               │
+│ Flash Code          │        75438 │          │                │               │
+│    .text            │        75438 │          │                │               │
+│ IRAM                │        44727 │    34.12 │          86345 │        131072 │
+│    .text            │        43699 │    33.34 │                │               │
+│    .vectors         │         1028 │     0.78 │                │               │
+│ Flash Data          │        40416 │          │                │               │
+│    .rodata          │        40160 │          │                │               │
+│    .appdesc         │          256 │          │                │               │
+└─────────────────────┴──────────────┴──────────┴────────────────┴───────────────┘

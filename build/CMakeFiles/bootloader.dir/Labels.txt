@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/dacid-carapia-quinto/esp/esp-idf/Multinucleo/build/CMakeFiles/bootloader
+/home/dacid-carapia-quinto/esp/esp-idf/Multinucleo/build/CMakeFiles/bootloader.rule
+/home/dacid-carapia-quinto/esp/esp-idf/Multinucleo/build/CMakeFiles/bootloader-complete.rule
+/home/dacid-carapia-quinto/esp/esp-idf/Multinucleo/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/dacid-carapia-quinto/esp/esp-idf/Multinucleo/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/dacid-carapia-quinto/esp/esp-idf/Multinucleo/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/dacid-carapia-quinto/esp/esp-idf/Multinucleo/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/dacid-carapia-quinto/esp/esp-idf/Multinucleo/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/dacid-carapia-quinto/esp/esp-idf/Multinucleo/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/dacid-carapia-quinto/esp/esp-idf/Multinucleo/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
